@@ -1,0 +1,102 @@
+{
+    "New York": {
+        "lat": 40.7128,
+        "lon": -74.006,
+        "country": "USA"
+    },
+    "London": {
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "country": "UK"
+    },
+    "Tokyo": {
+        "lat": 35.6762,
+        "lon": 139.6503,
+        "country": "Japan"
+    },
+    "Paris": {
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "country": "France"
+    },
+    "Sydney": {
+        "lat": -33.8688,
+        "lon": 151.2093,
+        "country": "Australia"
+    },
+    "Jerusalem": {
+        "lat": 31.7683,
+        "lon": 35.2137,
+        "country": "Israel"
+    },
+    "Tel Aviv": {
+        "lat": 32.0853,
+        "lon": 34.7818,
+        "country": "Israel"
+    },
+    "Haifa": {
+        "lat": 32.794,
+        "lon": 34.9896,
+        "country": "Israel"
+    },
+    "Eilat": {
+        "lat": 29.5577,
+        "lon": 34.9519,
+        "country": "Israel"
+    },
+    "Beer Sheva": {
+        "lat": 31.2518,
+        "lon": 34.7913,
+        "country": "Israel"
+    },
+    "Taipei": {
+        "lat": 25.033,
+        "lon": 121.5654,
+        "country": "Taiwan"
+    },
+    "Kaohsiung": {
+        "lat": 22.6273,
+        "lon": 120.3014,
+        "country": "Taiwan"
+    },
+    "Taichung": {
+        "lat": 24.1477,
+        "lon": 120.6736,
+        "country": "Taiwan"
+    },
+    "Tainan": {
+        "lat": 22.9997,
+        "lon": 120.227,
+        "country": "Taiwan"
+    },
+    "Hsinchu": {
+        "lat": 24.8138,
+        "lon": 120.9675,
+        "country": "Taiwan"
+    },
+    "Prague": {
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "country": "Czech Republic"
+    },
+    "Brno": {
+        "lat": 49.1951,
+        "lon": 16.6068,
+        "country": "Czech Republic"
+    },
+    "Ostrava": {
+        "lat": 49.8209,
+        "lon": 18.2625,
+        "country": "Czech Republic"
+    },
+    "Pilsen": {
+        "lat": 49.7475,
+        "lon": 13.3776,
+        "country": "Czech Republic"
+    },
+    "Olomouc": {
+        "lat": 49.5938,
+        "lon": 17.2508,
+        "country": "Czech Republic"
+    }
+}
