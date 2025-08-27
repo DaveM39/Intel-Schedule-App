@@ -1,0 +1,292 @@
+{
+    "schedule": {
+        "1": {
+            "title": "Recovery after Night Shift",
+            "activities": [
+                [
+                    "10:00 AM",
+                    "Sleep (post\u2011shift, until \u22483:30\u202fPM)",
+                    "sleep"
+                ],
+                [
+                    "3:30 PM",
+                    "Wake up",
+                    "morning"
+                ],
+                [
+                    "4:00 PM",
+                    "Protein\u2011rich meal",
+                    "meal"
+                ],
+                [
+                    "4:30 PM",
+                    "Take medicine (after meal)",
+                    "medicine"
+                ],
+                [
+                    "5:00 PM",
+                    "Light stretching / mobility",
+                    "morning"
+                ],
+                [
+                    "5:30 PM",
+                    "Grocery shopping",
+                    "afternoon"
+                ],
+                [
+                    "7:30 PM",
+                    "Pre\u2011workout snack",
+                    "meal"
+                ],
+                [
+                    "8:00 PM",
+                    "Gym \u2013 Chest & Triceps",
+                    "gym"
+                ],
+                [
+                    "10:00 PM",
+                    "Post\u2011workout meal",
+                    "meal"
+                ],
+                [
+                    "10:30 PM",
+                    "Take medicine (after meal)",
+                    "medicine"
+                ],
+                [
+                    "11:00 PM",
+                    "Relaxation",
+                    "evening"
+                ],
+                [
+                    "12:30 AM",
+                    "Bedtime",
+                    "evening"
+                ]
+            ]
+        },
+        "2": {
+            "title": "Productive Focus",
+            "activities": [
+                [
+                    "9:30 AM",
+                    "Wake up",
+                    "morning"
+                ],
+                [
+                    "10:00 AM",
+                    "Protein breakfast",
+                    "meal"
+                ],
+                [
+                    "10:30 AM",
+                    "Take medicine (after breakfast)",
+                    "medicine"
+                ],
+                [
+                    "10:45 AM",
+                    "Home maintenance / cleaning",
+                    "morning"
+                ],
+                [
+                    "12:30 PM",
+                    "Lunch",
+                    "meal"
+                ],
+                [
+                    "1:00 PM",
+                    "Take medicine (after lunch)",
+                    "medicine"
+                ],
+                [
+                    "1:30 PM",
+                    "Deep coding session (2\u20133\u202fh)",
+                    "coding"
+                ],
+                [
+                    "4:30 PM",
+                    "Learning \u2013 online course",
+                    "afternoon"
+                ],
+                [
+                    "5:30 PM",
+                    "Rest / pre\u2011workout prep",
+                    "afternoon"
+                ],
+                [
+                    "6:00 PM",
+                    "Pre\u2011workout meal",
+                    "meal"
+                ],
+                [
+                    "7:00 PM",
+                    "Gym \u2013 Back & Biceps",
+                    "gym"
+                ],
+                [
+                    "9:00 PM",
+                    "Post\u2011workout dinner",
+                    "meal"
+                ],
+                [
+                    "9:30 PM",
+                    "Take medicine (after dinner)",
+                    "medicine"
+                ],
+                [
+                    "10:00 PM",
+                    "Relaxation",
+                    "evening"
+                ],
+                [
+                    "12:00 AM",
+                    "Bedtime",
+                    "evening"
+                ]
+            ]
+        },
+        "3": {
+            "title": "Balance Day",
+            "activities": [
+                [
+                    "9:30 AM",
+                    "Wake up",
+                    "morning"
+                ],
+                [
+                    "10:00 AM",
+                    "Protein breakfast",
+                    "meal"
+                ],
+                [
+                    "10:30 AM",
+                    "Take medicine (after breakfast)",
+                    "medicine"
+                ],
+                [
+                    "10:45 AM",
+                    "Meal prep for remaining days",
+                    "morning"
+                ],
+                [
+                    "12:30 PM",
+                    "Lunch",
+                    "meal"
+                ],
+                [
+                    "1:00 PM",
+                    "Take medicine (after lunch)",
+                    "medicine"
+                ],
+                [
+                    "1:30 PM",
+                    "Coding session (2\u20133\u202fh)",
+                    "coding"
+                ],
+                [
+                    "4:30 PM",
+                    "Outdoor hobby / walk",
+                    "afternoon"
+                ],
+                [
+                    "5:30 PM",
+                    "Rest / pre\u2011workout prep",
+                    "afternoon"
+                ],
+                [
+                    "6:00 PM",
+                    "Pre\u2011workout snack",
+                    "meal"
+                ],
+                [
+                    "7:00 PM",
+                    "Gym \u2013 Shoulders & Abs",
+                    "gym"
+                ],
+                [
+                    "9:00 PM",
+                    "Post\u2011workout dinner",
+                    "meal"
+                ],
+                [
+                    "9:30 PM",
+                    "Take medicine (after dinner)",
+                    "medicine"
+                ],
+                [
+                    "10:00 PM",
+                    "Reading / downtime",
+                    "evening"
+                ],
+                [
+                    "12:00 AM",
+                    "Bedtime",
+                    "evening"
+                ]
+            ]
+        },
+        "4": {
+            "title": "Social / Rest",
+            "activities": [
+                [
+                    "9:30 AM",
+                    "Wake up",
+                    "morning"
+                ],
+                [
+                    "10:00 AM",
+                    "Easy breakfast",
+                    "meal"
+                ],
+                [
+                    "10:30 AM",
+                    "Take medicine (after breakfast)",
+                    "medicine"
+                ],
+                [
+                    "11:00 AM",
+                    "Laundry & chores",
+                    "morning"
+                ],
+                [
+                    "12:30 PM",
+                    "Lunch \u2013 meet a friend",
+                    "meal"
+                ],
+                [
+                    "1:30 PM",
+                    "Free time / errands",
+                    "afternoon"
+                ],
+                [
+                    "4:30 PM",
+                    "Prep for upcoming work block",
+                    "afternoon"
+                ],
+                [
+                    "6:00 PM",
+                    "Light gym \u2013 Stretch & Cardio",
+                    "gym"
+                ],
+                [
+                    "7:30 PM",
+                    "Cheat\u2011meal dinner out",
+                    "meal"
+                ],
+                [
+                    "9:00 PM",
+                    "Relax with family / friends",
+                    "evening"
+                ],
+                [
+                    "11:00 PM",
+                    "Early bedtime",
+                    "evening"
+                ]
+            ]
+        }
+    },
+    "notes": "This is a scratchpad for any notes you want to keep.",
+    "startDate": "08/25/2025",
+    "userName": "David Mirzaev"
+}
