@@ -1,6 +1,7 @@
 #:import DayTab app.views.tabs.DayTab
 #:import CATEGORY_COLORS app.models.CATEGORY_COLORS
 #:import ActivityDialogContent app.views.dialogs.ActivityDialogContent
+#:import Legend app.views.legend.Legend
 
 <MainScreen@MDBoxLayout>:
     id: main_screen
@@ -29,6 +30,10 @@
         readonly: True
         size_hint_y: None
         height: dp(120)
+    Legend:
+        id: legend
+        size_hint_y: None
+        height: dp(48)
     MDTabs:
         id: tabs
     MDLabel:

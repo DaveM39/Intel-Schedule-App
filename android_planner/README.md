@@ -40,5 +40,5 @@ launch.
 ## Status
 
 This is a skeleton implementation intended as a starting point.  Some
-features from the desktop version (legend filtering, yearly calendar,
-import/export) are not yet implemented.
+features from the desktop version (yearly calendar and import/export)
+are not yet implemented.
