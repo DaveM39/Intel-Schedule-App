@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 from kivy.lang import Builder
 from kivymd.app import MDApp
@@ -30,6 +30,7 @@ class PlannerApp(MDApp):
         super().__init__(**kwargs)
         self.data: Dict[str, Any] = {}
         self.title_text = "4-On / 4-Off Planner"
+        self.active_category: Optional[str] = None
 
     def build(self):
         Builder.load_file(Path(__file__).with_name("planner.kv"))
@@ -59,6 +60,11 @@ class PlannerApp(MDApp):
         for day, info in sorted(schedule.items(), key=lambda item: int(item[0])):
             tab = DayTab(day_key=str(day), title=info.get("title", f"Day {day}"))
             rv = tab.ids.rv
+            activities = [
+                act
+                for act in info.get("activities", [])
+                if not self.active_category or act[2] == self.active_category
+            ]
             rv.data = [
                 {
                     "time": act[0],
@@ -67,7 +73,7 @@ class PlannerApp(MDApp):
                     "day_key": str(day),
                     "index": idx,
                 }
-                for idx, act in enumerate(info.get("activities", []))
+                for idx, act in enumerate(activities)
             ]
             tabs.add_widget(tab)
 
@@ -115,6 +121,11 @@ class PlannerApp(MDApp):
 
     def toggle_theme(self):
         self.theme_cls.theme_style = "Dark" if self.theme_cls.theme_style == "Light" else "Light"
+
+    def set_filter(self, category: Optional[str]) -> None:
+        """Set the active category filter and refresh the schedule views."""
+        self.active_category = category
+        self.populate_tabs()
 
     # ------------------------------------------------------------------
     # Cycle calculation
