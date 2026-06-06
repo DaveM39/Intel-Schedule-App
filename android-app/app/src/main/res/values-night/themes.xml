@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.IntelScheduleAndroid" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+</resources>
