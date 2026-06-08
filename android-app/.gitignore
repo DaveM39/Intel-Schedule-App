@@ -1,0 +1,23 @@
+# Gradle and build outputs
+.gradle/
+**/build/
+/local.properties
+/keystore.properties
+*.jks
+*.keystore
+*.pem
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Native build
+.cxx/
+.externalNativeBuild/
+
+# Misc
+*.log
+.DS_Store
