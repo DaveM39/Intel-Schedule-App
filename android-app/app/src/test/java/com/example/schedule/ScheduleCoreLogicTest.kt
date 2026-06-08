@@ -58,6 +58,15 @@ class ScheduleCoreLogicTest {
     }
 
     @Test
+    fun encodeDecodeSchedulePayload_preservesClearedNotes() {
+        val payload = decodeSchedulePayload(
+            encodeSchedulePayload(ScheduleUiState(notes = ""))
+        )
+
+        assertEquals("", payload.notes)
+    }
+
+    @Test
     fun decodeSchedulePayload_acceptsPythonShape_andSkipsInvalidRows() {
         val rawJson =
             """

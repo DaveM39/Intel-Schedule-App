@@ -465,7 +465,7 @@ enum class ScheduleCategory {
     }
 }
 
-private const val DEFAULT_NOTES = "This is a scratchpad for any notes you want to keep."
+private const val DEFAULT_NOTES = ""
 private const val MAX_SCHEDULE_IMPORT_BYTES = 1_048_576
 
 internal fun InputStream.readUtf8WithLimit(maxBytes: Int = MAX_SCHEDULE_IMPORT_BYTES): String {

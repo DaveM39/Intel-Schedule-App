@@ -7,12 +7,12 @@ import org.junit.Test
 class ScheduleUiStateTest {
 
     @Test
-    fun defaultState_exposesFourDaysAndDefaultNotes() {
+    fun defaultState_exposesFourDaysAndEmptyNotes() {
         val state = ScheduleUiState()
 
         assertEquals(4, state.days.size)
         assertEquals("1", state.selectedDay.id)
-        assertEquals("This is a scratchpad for any notes you want to keep.", state.notes)
+        assertEquals("", state.notes)
     }
 
     @Test
